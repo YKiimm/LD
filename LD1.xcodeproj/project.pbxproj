@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A56EDAA11F14C73D002CD429 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56EDAA01F14C73D002CD429 /* Model.swift */; };
+		A56EDAA61F14C907002CD429 /* ViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56EDAA51F14C907002CD429 /* ViewCellController.swift */; };
 		A59F21931F14C2F900567167 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59F21921F14C2F900567167 /* AppDelegate.swift */; };
 		A59F21951F14C2F900567167 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59F21941F14C2F900567167 /* ViewController.swift */; };
 		A59F21981F14C2F900567167 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A59F21961F14C2F900567167 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A56EDAA01F14C73D002CD429 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A56EDAA51F14C907002CD429 /* ViewCellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewCellController.swift; sourceTree = "<group>"; };
 		A59F218F1F14C2F900567167 /* LD1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LD1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A59F21921F14C2F900567167 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A59F21941F14C2F900567167 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +39,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A56EDAA21F14C79E002CD429 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A59F21921F14C2F900567167 /* AppDelegate.swift */,
+				A59F21991F14C2F900567167 /* Assets.xcassets */,
+				A59F219B1F14C2F900567167 /* LaunchScreen.storyboard */,
+				A59F219E1F14C2F900567167 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A56EDAA31F14C7B2002CD429 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A56EDAA01F14C73D002CD429 /* Model.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A56EDAA41F14C7BA002CD429 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A56EDAA51F14C907002CD429 /* ViewCellController.swift */,
+				A59F21941F14C2F900567167 /* ViewController.swift */,
+				A59F21961F14C2F900567167 /* Main.storyboard */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		A59F21861F14C2F900567167 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +87,9 @@
 		A59F21911F14C2F900567167 /* LD1 */ = {
 			isa = PBXGroup;
 			children = (
-				A59F21921F14C2F900567167 /* AppDelegate.swift */,
-				A59F21941F14C2F900567167 /* ViewController.swift */,
-				A59F21961F14C2F900567167 /* Main.storyboard */,
-				A59F21991F14C2F900567167 /* Assets.xcassets */,
-				A59F219B1F14C2F900567167 /* LaunchScreen.storyboard */,
-				A59F219E1F14C2F900567167 /* Info.plist */,
+				A56EDAA31F14C7B2002CD429 /* Model */,
+				A56EDAA41F14C7BA002CD429 /* Controllers */,
+				A56EDAA21F14C79E002CD429 /* Supporting Files */,
 			);
 			path = LD1;
 			sourceTree = "<group>";
@@ -137,7 +167,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A56EDAA11F14C73D002CD429 /* Model.swift in Sources */,
 				A59F21951F14C2F900567167 /* ViewController.swift in Sources */,
+				A56EDAA61F14C907002CD429 /* ViewCellController.swift in Sources */,
 				A59F21931F14C2F900567167 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +336,7 @@
 				A59F21A31F14C2F900567167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
